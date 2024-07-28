@@ -1,1 +1,1 @@
-<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBTrebviLb1KJTM1GQL0GRmVIuYwJXfxZkQ&s](https://discord.com/channels/1163613407459684363/1267177006039040114/1267177038607814686" >
+<img src = "[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBTrebviLb1KJTM1GQL0GRmVIuYwJXfxZkQ&s](https://discord.com/channels/1163613407459684363/1267177006039040114/1267177038607814686](https://i.pinimg.com/736x/ef/0a/37/ef0a37fa2b4c90249b650ac88adf9f2d.jpg)" >
