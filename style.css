@@ -6,10 +6,18 @@
 
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 header {
-    margin: 44px 0px 144px 76px;
-
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 44px 0px 44px 76px;
 }
 
 a {
@@ -17,12 +25,12 @@ a {
     font-size: 24px;
     line-height: 29px;
     text-decoration: none;
-    color: #989D9C;
-    background-color: #ffffff;
+    color: #989d9c;
     cursor: pointer;
-    margin-right: 23px;
 
-
+    &:hover {
+        color: #665ae1;
+    }
 }
 
 .login {
@@ -34,8 +42,16 @@ a {
     color: #ffffff;
     background-color: #665ae1;
     border: none;
-    line-height: 29px;
     cursor: pointer;
+
+    &:hover {
+        background-color: #000000;
+        transition: .3s;
+    }
+
+    &:active {
+        opacity: .7;
+    }
 }
 
 main {
@@ -43,10 +59,12 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 100px;
 }
 
 section {
-    margin-left: 86px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -83,48 +101,55 @@ p {
     border: none;
     cursor: pointer;
     color: #000000;
-    background-color: #ADFF00;
+    background-color: #adff00;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
+    &:hover {
+        color: #ffffff;
+        background-color: #000000;
+        transition: .3s;
+    }
+
+    &:active {
+        opacity: .7;
+    }
 }
 
 @media screen and (max-width: 900px) {
 
     body {
-        width: 100vw;
-        height: 50vh;
+        justify-content: center;
+        gap: 50px;
+        padding: 15px;
     }
 
     header {
-        display: none;
+        justify-content: end;
+        margin: 0;
+
+        a {
+            display: none;
+        }
     }
 
     img {
-        width: 300px;
+        width: 100%;
     }
 
 
     main {
-        position: absolute;
-        display: flex;
-        justify-content: center;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 90px;
-
+        gap: 15px;
     }
 
     section {
-        margin: 0;
-        flex-direction: column;
         align-items: center;
-        display: flex;
-        justify-content: flex-start;
+        gap: 10px;
     }
 
     h1 {
         font-size: 50px;
+        line-height: normal;
     }
 
     h2 {
@@ -135,5 +160,8 @@ p {
         display: none;
     }
 
+    .botao{
+        margin: 0;
+    }
 
 }
